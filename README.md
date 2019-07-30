@@ -1,16 +1,14 @@
-<!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
-<p align="center">
-  <a href="https://www.gatsbyjs.org">
-    <img alt="Gatsby" src="https://www.gatsbyjs.org/monogram.svg" width="60" />
-  </a>
-</p>
-<h1 align="center">
-  Gatsby's default starter
-</h1>
+# Gatsby Starter: MDX Blog Skeleton
 
-Kick off your project with this default boilerplate. This starter ships with the main Gatsby configuration files you might need to get up and running blazing fast with the blazing fast app generator for React.
+Do you want to run `@arrempee/gatsby-theme-mdx-blog`, but find the documentation
+either too long, or too lacking?
 
-_Have another more specific idea? You may want to check out our vibrant collection of [official and community-created starters](https://www.gatsbyjs.org/docs/gatsby-starters/)._
+First off, I'm sorry. Second, you've come to the right starter!
+
+This is a quick change of the default Gatsby starter that shows off all the
+features of an *unconfigured* instance of `@arrempee/gatsby-theme-mdx-blog`. There's
+templated MDX page creation (with templates defined in the frontmatter), tags
+and categories with index pages, and oodles of nodes for all your customization needs!
 
 ## 🚀 Quick start
 

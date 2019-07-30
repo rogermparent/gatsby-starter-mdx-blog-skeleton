@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    title: `Gatsby MDX Blog Skeleton`,
+    description: `Build your next awesome Gatsby and MDX based blog with gatsby-theme-mdx-blog! This example shows off the basics.`,
+    author: `@arrempee`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -13,6 +13,7 @@ module.exports = {
         path: `${__dirname}/src/images`,
       },
     },
+    `@arrempee/gatsby-theme-mdx-blog`,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     {
