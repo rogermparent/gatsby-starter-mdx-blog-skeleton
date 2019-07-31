@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "gatsby-starter-mdx-blog-skeleton",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
-  "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "description": "A simple starter to get up and developing quickly with @arrempee/gatsby-theme-mdx-blog",
+  "version": "0.1.1",
+  "author": "Roger Parent <rogermparent@gmail.com>",
   "dependencies": {
     "@arrempee/gatsby-helpers": "^1.0.0",
     "@arrempee/gatsby-plugin-taxonomies": "^1.0.0",
@@ -41,9 +41,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
-  },
-  "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
+    "url": "https://github.com/rogermparent/gatsby-starter-mdx-blog-skeleton"
   }
 }
