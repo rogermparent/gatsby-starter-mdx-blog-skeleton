@@ -26,7 +26,11 @@ const Layout = ({ children }) => {
 
   return (
     <>
-      <Helmet>
+      <Helmet
+        htmlAttributes={{
+          lang: "en"
+        }}
+      >
         <title>{data.site.siteMetadata.title}</title>
       </Helmet>
       <Header siteTitle={data.site.siteMetadata.title} />

@@ -11,12 +11,12 @@ const IndexPage = ({
   },
 }) => (
   <Layout>
+    <h1>{mdxPage.frontmatter.title}</h1>
+    <div>
+      <MDXRenderer data={mdxPage.frontmatter}>{mdxPage.body}</MDXRenderer>
+    </div>
+    <h2>All Posts</h2>
     <ul>
-      <h1>{mdxPage.frontmatter.title}</h1>
-      <div>
-        <MDXRenderer data={mdxPage.frontmatter}>{mdxPage.body}</MDXRenderer>
-      </div>
-      <h2>All Posts</h2>
       {posts.map(({ page }) => (
         <li>
           <span>{page.frontmatter.date}</span> - <Link to={page.pagePath}>{page.frontmatter.title}</Link>
