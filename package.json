@@ -2,13 +2,13 @@
   "name": "gatsby-starter-mdx-blog-skeleton",
   "private": true,
   "description": "A simple starter to get up and developing quickly with @arrempee/gatsby-theme-mdx-blog",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "author": "Roger Parent <rogermparent@gmail.com>",
   "dependencies": {
     "@arrempee/gatsby-helpers": "^1.0.0",
     "@arrempee/gatsby-plugin-taxonomies": "^1.0.0",
     "@arrempee/gatsby-theme-mdx-blog": "^1.0.0",
-    "@arrempee/gatsby-theme-mdx-collections": "^1.0.0",
+    "@arrempee/gatsby-plugin-collections": "^1.0.0",
     "@arrempee/gatsby-theme-mdx-pages": "^1.0.0",
     "gatsby": "^2.13.42",
     "gatsby-image": "^2.2.7",
@@ -28,7 +28,8 @@
     "prettier": "^1.18.2"
   },
   "keywords": [
-    "gatsby"
+    "gatsby",
+    "gatsby-starter"
   ],
   "license": "MIT",
   "scripts": {
